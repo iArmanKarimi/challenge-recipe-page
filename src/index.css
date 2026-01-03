@@ -11,3 +11,21 @@
 	--font-serif: "Young Serif", serif;
 	--font-outfit: "Outfit", sans-serif;
 }
+
+@layer components {
+	li span {
+		@apply pl-2;
+	}
+
+	.grid-table>div {
+		@apply border-b py-2;
+	}
+
+	.grid-table>div:nth-child(even) {
+		@apply text-brown-800 font-semibold;
+	}
+
+	.grid-table>div:is(:last-child, :nth-last-child(2)) {
+		@apply border-0;
+	}
+}

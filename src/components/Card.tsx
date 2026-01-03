@@ -4,7 +4,7 @@ export default function Card() {
 			<img
 				src="/public/images/image-omelette.jpeg"
 				alt="omelette"
-				className="w-full outline-2"
+				className="w-full"
 			/>
 			{/* content */}
 			<div className="p-6 space-y-4">
@@ -64,36 +64,68 @@ export default function Card() {
 						marker:text-rose-800 marker:font-bold space-y-2 pl-1"
 					>
 						<li>
-							<b>Beat the eggs:</b> In a bowl, beast the eggs with a pinch of
-							salt and pepper until they are well mixed. You can add a table
-							spoon of water or milk for a fluffier texture.
+							<span>
+								<b>Beat the eggs:</b> In a bowl, beast the eggs with a pinch of
+								salt and pepper until they are well mixed. You can add a table
+								spoon of water or milk for a fluffier texture.
+							</span>
 						</li>
 						<li>
-							<b>Heat the pan:</b> Place a non-stick frying pan over medium heat
-							and add butter or oil
+							<span>
+								<b>Heat the pan:</b> Place a non-stick frying pan over medium
+								heat and add butter or oil
+							</span>
 						</li>
 						<li>
-							<b>Cook the omelette:</b> Once the butter is melted and bubbling,
-							pour in the eggs. Tilt the pan to ensure the eggs evenly coat the
-							surface.
+							<span>
+								<b>Cook the omelette:</b> Once the butter is melted and
+								bubbling, pour in the eggs. Tilt the pan to ensure the eggs
+								evenly coat the surface.
+							</span>
 						</li>
 						<li>
-							<b>Add fillings (optional):</b> When the eggs begin to setat the
-							edges but are still slightly runny in the middle, sprinkle your
-							chosen fillings over one half of the omelette.
+							<span>
+								<b>Add fillings (optional):</b> When the eggs begin to setat the
+								edges but are still slightly runny in the middle, sprinkle your
+								chosen fillings over one half of the omelette.
+							</span>
 						</li>
 						<li>
-							<b>Fold and serve:</b> As the omelette continues to cook,
-							carefully lift one edge and fold it over the fillings. Let it cook
-							for another minute, then slide it onto a plate.
+							<span>
+								<b>Fold and serve:</b> As the omelette continues to cook,
+								carefully lift one edge and fold it over the fillings. Let it
+								cook for another minute, then slide it onto a plate.
+							</span>
 						</li>
 						<li>
-							<b>Enjoy:</b> Serve hot, with additional salt and pepper if
-							needed.
+							<span>
+								<b>Enjoy:</b> Serve hot, with additional salt and pepper if
+								needed.
+							</span>
 						</li>
 					</ol>
 				</div>
 				<hr className="text-stone-300 my-7" />
+				<div className="font-outfit text-stone-500">
+					<h2 className="text-lg font-serif text-brown-800 mb-2">Nutrition</h2>
+					<p>
+						The table below shows nutritional values per serving without the
+						additional fillings.
+					</p>
+					<div className="grid grid-cols-2 mt-5 text-center divide-stone-300 grid-table">
+						<div>Calories</div>
+						<div>227kcal</div>
+
+						<div>Carbs</div>
+						<div>0g</div>
+
+						<div>Protein</div>
+						<div>20g</div>
+
+						<div>Fat</div>
+						<div>22g</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
