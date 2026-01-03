@@ -59,7 +59,41 @@ export default function Card() {
 					<h2 className="text-lg font-serif text-brown-800 mb-2">
 						Instructions
 					</h2>
+					<ol
+						className="list-decimal list-inside font-outfit text-bold text-stone-600 
+						marker:text-rose-800 marker:font-bold space-y-2 pl-1"
+					>
+						<li>
+							<b>Beat the eggs:</b> In a bowl, beast the eggs with a pinch of
+							salt and pepper until they are well mixed. You can add a table
+							spoon of water or milk for a fluffier texture.
+						</li>
+						<li>
+							<b>Heat the pan:</b> Place a non-stick frying pan over medium heat
+							and add butter or oil
+						</li>
+						<li>
+							<b>Cook the omelette:</b> Once the butter is melted and bubbling,
+							pour in the eggs. Tilt the pan to ensure the eggs evenly coat the
+							surface.
+						</li>
+						<li>
+							<b>Add fillings (optional):</b> When the eggs begin to setat the
+							edges but are still slightly runny in the middle, sprinkle your
+							chosen fillings over one half of the omelette.
+						</li>
+						<li>
+							<b>Fold and serve:</b> As the omelette continues to cook,
+							carefully lift one edge and fold it over the fillings. Let it cook
+							for another minute, then slide it onto a plate.
+						</li>
+						<li>
+							<b>Enjoy:</b> Serve hot, with additional salt and pepper if
+							needed.
+						</li>
+					</ol>
 				</div>
+				<hr className="text-stone-300 my-7" />
 			</div>
 		</div>
 	);
