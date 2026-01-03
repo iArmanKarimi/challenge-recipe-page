@@ -3,7 +3,7 @@ import Card from "./components/Card";
 
 function App() {
 	return (
-		<div className="">
+		<div className="h-screen flex justify-center items-center">
 			<Card></Card>
 		</div>
 	);
