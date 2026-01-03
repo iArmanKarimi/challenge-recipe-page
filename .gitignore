@@ -22,3 +22,24 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Vite
+/.vite
+vite.config.ts
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.*.tsbuildinfo
+
+# Tailwind CSS
+tailwind.config.js
+postcss.config.cjs
+
+# Build outputs
+/build
+/out
+/coverage
+
+# Environment files
+.env
+.env.*
