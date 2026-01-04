@@ -112,7 +112,7 @@ export default function Card() {
 						The table below shows nutritional values per serving without the
 						additional fillings.
 					</p>
-					<div className="grid grid-cols-2 mt-5 text-center divide-stone-300 grid-table">
+					<div className="grid grid-cols-2 mt-5  *:pl-[25%] grid-table divide-stone-300">
 						<div>Calories</div>
 						<div>227kcal</div>
 
