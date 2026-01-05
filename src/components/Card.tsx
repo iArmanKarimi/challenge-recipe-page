@@ -8,7 +8,7 @@ export default function Card() {
 			/>
 			{/* content */}
 			<div className="p-6 space-y-4">
-				<h1 className="font-serif font-bold text-stone-900 font-">
+				<h1 className="font-serif font-bold text-stone-900">
 					Simple Omelette Recipe
 				</h1>
 				<p className="font-outfit text-stone-500">
