@@ -1,8 +1,8 @@
 export default function Card() {
 	return (
-		<div>
+		<div className="card-desktop bg-white">
 			<img
-				src="/public/images/image-omelette.jpeg"
+				src="/images/image-omelette.jpeg"
 				alt="omelette"
 				className="w-full"
 			/>
@@ -21,11 +21,7 @@ export default function Card() {
 					<h2 className="font-outfit font-bold text-rose-800 text-lg">
 						Preparation time
 					</h2>
-					<ul
-						className="list-disc list-inside 
-						font-outfit text-stone-600 marker:text-rose-800 
-						space-y-1 mt-2"
-					>
+					<ul className="list-disc list-inside font-outfit text-stone-600 marker:text-rose-800 space-y-1 mt-2">
 						<li>
 							<b>Total</b>: Approximately 10 minutes
 						</li>
@@ -37,13 +33,14 @@ export default function Card() {
 						</li>
 					</ul>
 				</div>
+				{/* ingredients */}
 				<div>
 					<h2 className="text-lg font-serif text-brown-800 mb-2">
 						Ingredients
 					</h2>
 					<ul
 						className="list-disc list-inside font-outfit text-stone-500 
-						marker:text-rose-800 space-y-1 pl-1"
+					marker:text-rose-800 space-y-1 pl-1"
 					>
 						<li>2-3 large eggs</li>
 						<li>Salt, to taste</li>
@@ -55,6 +52,7 @@ export default function Card() {
 					</ul>
 				</div>
 				<hr className="text-stone-300 my-7" />
+				{/* Instructions */}
 				<div>
 					<h2 className="text-lg font-serif text-brown-800 mb-2">
 						Instructions
@@ -106,6 +104,7 @@ export default function Card() {
 					</ol>
 				</div>
 				<hr className="text-stone-300 my-7" />
+				{/* Nutrition */}
 				<div className="font-outfit text-stone-500">
 					<h2 className="text-lg font-serif text-brown-800 mb-2">Nutrition</h2>
 					<p>

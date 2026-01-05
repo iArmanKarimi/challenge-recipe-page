@@ -13,6 +13,24 @@
 }
 
 @layer components {
+	@media (width >=70rem) {
+		.app-container {
+			@apply px-7;
+		}
+
+		.card-desktop {
+			@apply my-6 p-7.5 rounded-2xl shadow-sm bg-white;
+		}
+
+		.card-desktop img {
+			@apply w-full rounded-lg;
+		}
+	}
+
+	.app-container {
+		@apply flex justify-center h-full bg-stone-150;
+	}
+
 	li span {
 		@apply pl-2;
 	}
