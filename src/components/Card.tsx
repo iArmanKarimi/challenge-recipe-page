@@ -1,11 +1,9 @@
+import img from "/images/image-omelette.jpeg";
+
 export default function Card() {
 	return (
 		<div className="card-desktop bg-white">
-			<img
-				src="/images/image-omelette.jpeg"
-				alt="omelette"
-				className="w-full"
-			/>
+			<img src={img} alt="omelette" className="w-full" />
 			{/* content */}
 			<div className="p-6 space-y-4">
 				<h1 className="font-serif font-bold text-stone-900">
