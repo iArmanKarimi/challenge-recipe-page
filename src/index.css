@@ -14,12 +14,9 @@
 
 @layer components {
 	@media (width >=1280px) {
-		.app-container {
-			@apply px-8;
-		}
-
 		.card-desktop {
 			@apply my-6 p-7.5 rounded-2xl shadow-sm bg-white;
+			@apply max-w-250;
 		}
 
 		.card-desktop img {
